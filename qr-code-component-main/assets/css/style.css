@@ -73,7 +73,7 @@ body {
 }
 
 .qr__text-title {
-    margin: 20px auto;
+    margin: 25px auto;
 
     font-size: 22px;
 	color: hsl(218, 44%, 22%);
@@ -92,33 +92,4 @@ body {
 	line-height: 1.2;
 }
 
-.attribution {
-    max-width:420px;
-    padding: 20px;
 
-    position: relative;
-    top: 40px;
-    left: 50px;
-
-    border-radius: 20px;
-    background-color: #fff;
-}
-
-.button {
-    color: hsl(210, 100%, 66%);
-    text-decoration: none;
-}
-
-@media (max-width: 540px) {
-    .attribution {
-        max-width: 280px;
-        margin: 0 auto;
-        top: 50px;
-        left: 0;
-    }
-
-    .attribution__label {
-        margin: 0 auto;
-        max-width: 250px;
-    }
-}
