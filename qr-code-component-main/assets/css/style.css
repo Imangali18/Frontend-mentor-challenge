@@ -14,7 +14,6 @@ nav,footer,header,aside{display: block;}
 html,body{
 	height: 100%;
 	width: 100%;
-	font-size: 100%;
 	line-height: 1;
 	font-size (paragraph): 15px;
 	-ms-text-size-adjust: 100%;
@@ -39,7 +38,7 @@ body {
     font-optical-sizing: auto;
 }
 
-.qr {
+.card {
   display: flex;
   align-items: center;     /* вертикально */
   height: 100vh;           /* высота экрана */
@@ -49,7 +48,7 @@ body {
     width: 100%;
 }
 
-.qr__item {
+.card__item {
     margin: 0 auto;
     padding: 15px;
     width: 320px;
@@ -60,19 +59,19 @@ body {
 }
 
 
-.qr__img {
+.card__img {
     max-width: 100%;
 
     border-radius: 10px;
 }
 
-.qr__text {
+.card__text {
     max-width: 280px;
     margin: 0 auto;
     text-align: center;
 }
 
-.qr__text-title {
+.card__text-title {
     margin: 25px auto;
 
     font-size: 22px;
@@ -81,7 +80,7 @@ body {
 	line-height: 1.2;
 }
 
-.qr__text-subtitle {
+.card__text-subtitle {
     max-width: 240px;
     margin: 0 auto;
     margin-bottom: 20px;
