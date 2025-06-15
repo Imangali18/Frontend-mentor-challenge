@@ -140,6 +140,8 @@ body {
     margin: 30px auto 0;
     padding: 20px;
 
+    text-align: center;
+
 
     border: 1px solid #000;
     border-radius: 15px;
@@ -151,9 +153,12 @@ body {
     color: rgb(99, 99, 99);
 }
 
-a {
-    text-decoration: none;
+.attribution a {
+  color: orange;
+
+  text-decoration: none;
 }
+
 
 @media (max-width: 380px) {
     .card__item {
