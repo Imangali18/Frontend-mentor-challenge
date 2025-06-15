@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+
+    background-color: hsl(47, 88%, 63%);
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;     /* вертикально */
+  height: 100vh;           /* высота экрана */
+}
+
+.container {
+    width: 100%;
+}
+
+.card__item {
+    margin: 0 auto;
+    padding: 20px;
+    width: 380px;
+
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 8px 8px 0px 0px hsl(0, 0%, 0%);
+    background-color: white;
+}
+
+
+.card__img {
+    max-width: 100%;
+
+    border-radius: 10px;
+}
+
+.card__text {
+    max-width: 320px;
+}
+
+.card__text-info {
+    margin-top: 20px;
+}
+
+.card__text-title {
+    margin: 20px auto;
+
+    font-size: 22px;
+	color: hsl(0, 0%, 7%);
+	font-weight: 900;
+	line-height: 1.2;
+}
+
+.card__info-learning {
+    max-width: 90px;
+    padding: 8px 12px;
+
+    font-weight: 750;
+    color: #000;
+
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card__info-date {
+    margin-top: 20px;
+
+    font-weight: 550;
+}
+
+.card__text-title:hover {
+    margin: 20px auto;
+
+    cursor: pointer;
+
+    font-size: 22px;
+	color: hsl(47, 88%, 63%);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.card__text-subtitle {
+    max-width: 320px;
+    margin-bottom: 20px;
+
+    font-size: 16x;
+	color: hsl(0, 0%, 42%);
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.card__author {
+    display: flex;
+}
+
+.card__author-img {
+    width: 32px;
+}
+
+.card__author-name {
+    margin: 10px;
+
+    font-weight: 700;
+}
+
+.attribution {
+    position: relative;
+    max-width: 340px;
+    margin: 30px auto 0;
+    padding: 20px;
+
+
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.attribution__text {
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 380px) {
+    .card__item {
+        width: 320px;
+    }
+
+    .card__text-subtitle {
+        font-size: 14px;
+    }
+
+    .attribution {
+        max-width: 280px;
+        padding: 15px;
+    }
+}
